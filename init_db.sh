@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# THIS IS NOT USED ANYMORE, JUST FOR REFERENCE
+
 /usr/local/mysql/bin/mysqld_safe --skip-grant-tables &
 sleep 5
 mysql -u root -e "CREATE DATABASE emrs"
